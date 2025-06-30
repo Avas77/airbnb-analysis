@@ -1,13 +1,18 @@
 import pandas as pd
 from sqlalchemy import create_engine
+from dotenv import load_dotenv
+import os
 
-db_user = 'postgres'
-db_pass = 'buddy123'
-db_host = 'localhost'
-db_port = '5432'
-db_name = 'airbnb'
+load_dotenv()
 
-engine = create_engine(f'postgresql://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}') 
+DB_USER = os.getenv("DB_USER")
+DB_PASS = os.getenv("DB_PASS")
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_NAME = os.getenv("DB_NAME")
+
+
+engine = create_engine(f'postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}') 
 
 df = pd.read_csv('dataset/listings.csv')
 
