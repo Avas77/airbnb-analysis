@@ -103,6 +103,8 @@ We connected Power BI directly to the PostgreSQL database using custom SQL queri
 - Price Range
 - Availability Range
 
+![Airbnb PowerBI Dashboard](images/powerbi.png)
+
 ---
 
 ## 🛠️ Tech Stack
@@ -119,10 +121,3 @@ We connected Power BI directly to the PostgreSQL database using custom SQL queri
 Graduate Student | Data Analytics Enthusiast  
 [LinkedIn Profile](https://www.linkedin.com/in/avas-bajracharya-640357200/) | [Portfolio Website](https://www.avasbajracharya.com.np/)
 
----
-
-## ✅ Key Takeaways
-
-- End-to-end analytics workflow using real-world data
-- Strong SQL data modeling and query skills
-- Interactive dashboard with business insights
