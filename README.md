@@ -103,7 +103,7 @@ We connected Power BI directly to the PostgreSQL database using custom SQL queri
 - Price Range
 - Availability Range
 
-![Airbnb PowerBI Dashboard](images/powerbi.png)
+<img src="images/powerbi.png" alt="Airbnb PowerBI Dashboard" style="width:100%;" />
 
 ---
 
